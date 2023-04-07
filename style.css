@@ -1,0 +1,44 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+
+:root{
+  font-family: 'Roboto', sans-serif;
+}
+
+form{
+  
+  
+  width: 400px;
+  margin: auto
+  
+}
+
+fieldset{
+  padding: 12px;
+  border-radius: 1rem;
+  border-color: rgba(78, 76, 76, 0.308);
+
+}
+
+label span{
+  display: inline-block;
+
+}
+
+span{
+
+
+
+}
+
+input{
+  font-size: 1rem;
+}
+
+#submit{
+  display: block;
+  font-size: 1rem;
+  margin: auto;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>Set Booking</h1>
+ 
+  <form action="setbooking.php" method="post">
+   <fieldset>
+    <legend>Booking details</legend>
+    
+    <p>
+      <label for="username"><strong><span>Username:</span></strong></label>
+      <input type="text" name="username">
+    </p>
+
+    <p>
+      <label for="location"><strong><span>Location:</span></strong></label>
+      <input type="text" name="location">
+    </p>
+
+    <p>
+      <label for="date"><strong><span>Date</span></strong>:</label>
+      <input type="date" name="date">
+    </p>
+
+    <p>
+      <label for="shour"><strong><span>Starting hour:</span></strong></label>
+      <input type="number" name="shour">
+    </p>
+
+    <p>
+      <label for="ehour"><strong><span>Ending hour:</span></strong></label>
+      <input type="number" name="ehour">
+    </p>
+
+    <button id="submit" type="submit" value="Set">Submit booking</button>
+
+  </fieldset>
+  </form>
+</body>
+</html>
